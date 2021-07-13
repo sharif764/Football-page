@@ -67,13 +67,14 @@ nav > section > .button {
 /* main style start */
 .players {
   display: grid;
-  grid-template-columns: repeat(3, 0.3fr);
+  grid-template-columns: repeat(3, 0.2fr);
   grid-column-gap: 5px;
   grid-row-gap: 20px;
+  grid-column-gap: 20px;
   align-items: center;
   width: 80%;
-  margin-left: 17%;
-  margin-right: 12%;
+  margin-left: 23%;
+  margin-right: 20%;
   margin-top: 50px;
 }
 .player {
