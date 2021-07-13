@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  width: ;
 }
 /* common style start*/
 
@@ -68,11 +67,12 @@ nav > section > .button {
   display: grid;
   grid-template-columns: repeat(3, 0.3fr);
   grid-column-gap: 5px;
+  grid-row-gap: 20px;
   align-items: center;
   width: 80%;
   margin-left: 17%;
-  margin-right: 10%;
-  margin-top: 40px;
+  margin-right: 12%;
+  margin-top: 50px;
 }
 .player {
   height: 177px;
