@@ -74,7 +74,7 @@ nav > section > .button {
   grid-column-gap: 20px;
   align-items: center;
   width: 80%;
-  margin: 50px 20% 10% 23%;
+  margin: 50px 12% 10% 22%;
 }
 .player-div p {
   color: lightgray;
@@ -111,5 +111,6 @@ nav > section > .button {
 }
 .social-icon img {
   width: 25px;
+  padding: 5px;
 }
 /* footer style part end */
