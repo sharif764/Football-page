@@ -3,3 +3,28 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* common style start*/
+
+/* common style end */
+
+/* header style  start*/
+header {
+  background-color: #562eff;
+}
+nav > section > .button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button span {
+  text-decoration: none;
+  color: #fff;
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 18px;
+  font-size: 14px;
+  align-items: center;
+}
+/* header style end */
