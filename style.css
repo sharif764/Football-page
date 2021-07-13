@@ -74,10 +74,10 @@ nav > section > .button {
   grid-column-gap: 20px;
   align-items: center;
   width: 80%;
-  margin: 50px 12% 10% 22%;
+  margin: 50px 10% 8% 20%;
 }
 .player-div p {
-  color: lightgray;
+  color: gray;
   font-size: 12px;
 }
 .player {
@@ -85,7 +85,7 @@ nav > section > .button {
   width: 230px;
 }
 .player-div {
-  box-shadow: 20px -1px 100px;
+  box-shadow: 1px 1px 3px;
   border-radius: 5px;
   width: 250px;
   padding: 15px 0px 15px 15px;
@@ -111,6 +111,14 @@ nav > section > .button {
 }
 .social-icon img {
   width: 25px;
-  padding: 5px;
+  padding: 5px 5px 0 5px;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer span {
+  align-items: center;
 }
 /* footer style part end */
