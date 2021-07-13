@@ -74,9 +74,11 @@ nav > section > .button {
   grid-column-gap: 20px;
   align-items: center;
   width: 80%;
-  margin-left: 23%;
-  margin-right: 20%;
-  margin-top: 50px;
+  margin: 50px 20% 10% 23%;
+}
+.player-div p {
+  color: lightgray;
+  font-size: 12px;
 }
 .player {
   height: 177px;
@@ -90,3 +92,24 @@ nav > section > .button {
 }
 /* players div style end*/
 /* main style end */
+/* footer style part start */
+.football-pic img {
+  width: 310px;
+  align-items: center;
+}
+.football-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icon img {
+  width: 25px;
+}
+/* footer style part end */
