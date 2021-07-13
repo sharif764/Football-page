@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  width: ;
 }
 /* common style start*/
 
@@ -34,6 +35,7 @@ nav > section > .button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  margin-top: 40px;
 }
 .conmebol h1 {
   margin-bottom: 0;
@@ -42,7 +44,7 @@ nav > section > .button {
 .conmebol {
   padding-left: 33%;
   font-size: 40px;
-  padding-top: 10%;
+  padding-top: 5%;
   color: #fff;
 }
 .conmebol a,
@@ -68,8 +70,8 @@ nav > section > .button {
   grid-column-gap: 5px;
   align-items: center;
   width: 80%;
-  padding-left: 17%;
-  padding-right: 18%;
+  margin-left: 17%;
+  margin-right: 10%;
   margin-top: 40px;
 }
 .player {
