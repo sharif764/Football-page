@@ -207,6 +207,8 @@ footer style part end
   }
   body {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
   /*****************
   header part style 
