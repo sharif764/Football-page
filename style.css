@@ -106,10 +106,12 @@ header:hover img {
 .bonus div {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   margin-top: 4%;
 }
-.bonus img {
+.bonus img,
+article {
   width: 55%;
   border-radius: 10px;
 }
