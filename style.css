@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
 }
 /* header style  start*/
 header {
@@ -186,7 +187,7 @@ footer span {
     overflow: hidden;
   }
   .copa-america > div {
-    width: auto;
+    width: 60%;
   }
   .players {
     display: grid;
