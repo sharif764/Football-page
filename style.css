@@ -201,10 +201,12 @@ footer style part end
  start
  *****************/
 @media only screen and (max-width: 668px) {
-  body {
-    width: 100%;
+  * {
     margin: 0;
     padding: 0;
+  }
+  body {
+    width: 100%;
   }
   /*****************
   header part style 
