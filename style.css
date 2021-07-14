@@ -84,7 +84,7 @@ head player img is a header div  *****************/
 }
 header:hover img {
   transform: rotate(360deg) scale(1) skew(360deg);
-  transition: transform 10s ease-in-out 0.2s;
+  transition: transform 10s ease-in-out 0.1s;
 }
 /*****************
  header style end 
