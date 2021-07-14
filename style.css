@@ -103,17 +103,28 @@ header:hover img {
   padding: 15px 0px 15px 15px;
 }
 /* bonus section style start*/
-.bonus div {
+.bonus {
+  position: relative;
+}
+.bonus > div {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-top: 4%;
 }
-.bonus img,
-article {
+.bonus img {
   width: 55%;
   border-radius: 10px;
+}
+.article-div {
+  display: none;
+  position: absolute;
+  margin: 0;
+  width: 55%;
+}
+.bonus:hover .article-div {
+  display: block;
 }
 /* bonus section style end */
 /* players div style end*/
