@@ -187,7 +187,7 @@ footer span {
     overflow: hidden;
   }
   .copa-america > div {
-    width: 60%;
+    width: auto;
   }
   .players {
     display: grid;
@@ -206,12 +206,27 @@ footer span {
 }
 /* media query for tablet */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+  body {
+    width: 100%;
+  }
   header {
     overflow: hidden;
+  }
+  .copa-america > div {
+    width: auto;
+  }
+  .head-player-img {
+    overflow: hidden;
+  }
+  .head-player-img img {
+    width: 370px;
+    height: 300px;
   }
   .copa-america {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-right: 0;
+    margin-right: 0;
   }
   .conmebol {
     margin: 10px;
@@ -220,5 +235,11 @@ footer span {
   .players {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .article-div {
+    height: 100px;
+    font-size: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 }
