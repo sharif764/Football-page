@@ -6,7 +6,7 @@ body {
 }
 /* header style  start*/
 header {
-  background-color: blue;
+  background-color: rgba(0, 0, 139, 0.863);
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
