@@ -1,16 +1,14 @@
 /* Google font family import link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* body style */
 body {
   font-family: "Poppins", sans-serif;
 }
-/* common style start*/
-
-/* common style end */
-
 /* header style  start*/
 header {
-  background-color: #562eff;
+  background-color: blue;
   padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 nav {
   padding-top: 25px;
@@ -55,6 +53,7 @@ nav > section > .button {
   background-color: rgb(211, 9, 93);
   padding: 10px 10px 5px 5px;
   text-decoration: none;
+  border-radius: 10px;
 }
 .copa-america > div {
   width: 50%;
@@ -66,15 +65,18 @@ nav > section > .button {
 /* header style end */
 /* main style start */
 /* players div style start */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .players {
   display: grid;
   grid-template-columns: repeat(3, 0.2fr);
-  grid-column-gap: 5px;
   grid-row-gap: 20px;
   grid-column-gap: 20px;
   align-items: center;
-  width: 80%;
-  margin: 50px 10% 8% 20%;
 }
 .player-div p {
   color: gray;
@@ -85,7 +87,7 @@ nav > section > .button {
   width: 230px;
 }
 .player-div {
-  box-shadow: 1px 1px 3px;
+  box-shadow: 1px 1px 5px;
   border-radius: 5px;
   width: 250px;
   padding: 15px 0px 15px 15px;
@@ -93,6 +95,9 @@ nav > section > .button {
 /* players div style end*/
 /* main style end */
 /* footer style part start */
+footer {
+  margin-top: 30px;
+}
 .football-pic img {
   width: 310px;
   align-items: center;
