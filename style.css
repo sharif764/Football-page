@@ -68,7 +68,7 @@ nav > section > .button {
   height: 400px;
 }
 header:hover img {
-  transform: rotate(360deg) scale(1.1) skew(350deg);
+  transform: rotate(360deg) scale(1) skew(360deg);
   transition: transform 10s ease-in-out 0.2s;
 }
 /* header style end */
