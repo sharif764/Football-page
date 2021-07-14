@@ -186,6 +186,12 @@ footer span {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .article-div {
+    height: 100px;
+    font-size: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 }
 /* media query for tablet */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
