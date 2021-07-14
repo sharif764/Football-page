@@ -116,7 +116,7 @@ header:hover img {
 }
 .player-div p {
   color: gray;
-  font-size: 12px;
+  font-size: 16px;
 }
 /*****************
  players div style end
@@ -255,7 +255,7 @@ footer style part end
   *****************/
   .article-div {
     height: 100px;
-    font-size: 14px;
+    font-size: 12px;
     overflow-x: hidden;
     overflow-y: scroll;
   }
