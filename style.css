@@ -1,6 +1,10 @@
 /* Google font family import link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 /* body style */
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -9,6 +13,7 @@ header {
   background-color: rgba(0, 0, 139, 0.863);
   padding-bottom: 50px;
   margin-bottom: 50px;
+  overflow: hidden;
 }
 nav {
   padding-top: 25px;
@@ -61,6 +66,10 @@ nav > section > .button {
 .head-player-img img {
   width: 480px;
   height: 400px;
+}
+header:hover img {
+  transform: rotate(360deg) scale(1.1) skew(350deg);
+  transition: transform 10s ease-in-out 0.2s;
 }
 /* header style end */
 /* main style start */
