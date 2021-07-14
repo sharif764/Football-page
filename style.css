@@ -215,6 +215,9 @@ footer style part end
   header {
     overflow: hidden;
   }
+  /***************** 
+  copa america is aheader div 
+  *****************/
   .copa-america {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -222,6 +225,10 @@ footer style part end
   .copa-america > div {
     width: auto;
   }
+  .copa-america .conmebol {
+    width: 350px;
+  }
+  /* conmebol is a header div */
   .conmebol {
     margin: 10px;
     padding: 0;
@@ -243,6 +250,9 @@ footer style part end
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  /*****************
+  article is a bonus div 
+  *****************/
   .article-div {
     height: 100px;
     font-size: 10px;
@@ -301,6 +311,9 @@ main part style end
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  /*****************
+  article is a bonus div 
+  *****************/
   .article-div {
     height: 100px;
     font-size: 10px;
