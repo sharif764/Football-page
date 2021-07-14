@@ -3,14 +3,11 @@ Google font family import link
 *****************/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 /***************** 
-Google font family import link 
-*****************/
-
-/***************** 
 body style start
 *****************/
 * {
   margin: 0;
+  /* margin and padding default 0 now */
   padding: 0;
 }
 body {
@@ -22,8 +19,7 @@ body style end
 *****************/
 /*****************
  header style  start
- *****************/
-
+*****************/
 header {
   background-color: rgba(0, 0, 139, 0.863);
   padding-bottom: 50px;
@@ -49,6 +45,9 @@ nav > section > .button {
   font-size: 14px;
   align-items: center;
 }
+/******************
+copa america is a header div 
+******************/
 .copa-america {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -77,11 +76,11 @@ nav > section > .button {
 .copa-america > div {
   width: 50%;
 }
+/* head player img is a header div  */
 .head-player-img img {
   width: 480px;
   height: 400px;
 }
-
 header:hover img {
   transform: rotate(360deg) scale(1) skew(360deg);
   transition: transform 10s ease-in-out 0.2s;
@@ -105,8 +104,8 @@ header:hover img {
 .players {
   display: grid;
   grid-template-columns: repeat(3, 0.2fr);
-  grid-row-gap: 20px;
-  grid-column-gap: 20px;
+  grid-row-gap: 23px;
+  grid-column-gap: 23px;
   align-items: center;
 }
 .player-div p {
@@ -123,6 +122,9 @@ header:hover img {
   width: 250px;
   padding: 15px 0px 15px 15px;
 }
+/*****************
+ players div style end
+ *****************/
 /*****************
  bonus section style start
 *****************/
@@ -156,9 +158,7 @@ header:hover img {
 /*****************
  bonus section style end
  *****************/
-/*****************
- players div style end
- *****************/
+
 /***************** 
 main style end 
 *****************/
@@ -202,6 +202,7 @@ footer style part end
 *****************/
 /*****************
  media query for mobile
+ start
  *****************/
 @media only screen and (max-width: 668px) {
   body {
@@ -240,7 +241,12 @@ footer style part end
   }
 }
 /*****************
+ media query for mobile
+ end
+ *****************/
+/*****************
  media query for tablet
+ start
  *****************/
 @media only screen and (min-width: 688px) and (max-width: 992px) {
   body {
@@ -280,3 +286,7 @@ footer style part end
     overflow-y: scroll;
   }
 }
+/*****************
+ media query for tablet
+ end
+ *****************/
