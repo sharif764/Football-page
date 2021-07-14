@@ -1,6 +1,14 @@
-/* Google font family import link */
+/***************** 
+Google font family import link 
+*****************/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-/* body style */
+/***************** 
+Google font family import link 
+*****************/
+
+/***************** 
+body style start
+*****************/
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +17,13 @@ body {
   font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
 }
-/* header style  start*/
+/***************** 
+body style end
+*****************/
+/*****************
+ header style  start
+ *****************/
+
 header {
   background-color: rgba(0, 0, 139, 0.863);
   padding-bottom: 50px;
@@ -72,9 +86,15 @@ header:hover img {
   transform: rotate(360deg) scale(1) skew(360deg);
   transition: transform 10s ease-in-out 0.2s;
 }
-/* header style end */
-/* main style start */
-/* players div style start */
+/*****************
+ header style end 
+ *****************/
+/*****************
+ main style start 
+ *****************/
+/*****************
+ players div style start
+ *****************/
 .container {
   width: 100%;
   display: flex;
@@ -103,7 +123,9 @@ header:hover img {
   width: 250px;
   padding: 15px 0px 15px 15px;
 }
-/* bonus section style start*/
+/*****************
+ bonus section style start
+*****************/
 .bonus {
   position: relative;
 }
@@ -131,10 +153,19 @@ header:hover img {
 .bonus:hover img {
   opacity: 0.4;
 }
-/* bonus section style end */
-/* players div style end*/
-/* main style end */
-/* footer style part start */
+/*****************
+ bonus section style end
+ *****************/
+/*****************
+ players div style end
+ *****************/
+/***************** 
+main style end 
+*****************/
+
+/*************** 
+footer style part start
+****************/
 footer {
   margin-top: 30px;
 }
@@ -166,8 +197,12 @@ footer p {
 footer span {
   align-items: center;
 }
-/* footer style part end */
-/* media query for mobile */
+/***************** 
+footer style part end 
+*****************/
+/*****************
+ media query for mobile
+ *****************/
 @media only screen and (max-width: 668px) {
   body {
     width: 100%;
@@ -204,7 +239,9 @@ footer span {
     height: 300px;
   }
 }
-/* media query for tablet */
+/*****************
+ media query for tablet
+ *****************/
 @media only screen and (min-width: 688px) and (max-width: 992px) {
   body {
     width: 100%;
