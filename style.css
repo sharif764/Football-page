@@ -54,15 +54,18 @@ copa america is a header div
   align-items: center;
   margin-top: 40px;
 }
-.conmebol h1 {
-  margin-bottom: 0;
-  display: inline;
+.copa-america > div {
+  width: 50%;
 }
 .conmebol {
   padding-left: 33%;
   font-size: 40px;
   padding-top: 5%;
   color: #fff;
+}
+.conmebol h1 {
+  margin-bottom: 0;
+  display: inline;
 }
 .conmebol a,
 .login {
@@ -73,10 +76,8 @@ copa america is a header div
   text-decoration: none;
   border-radius: 10px;
 }
-.copa-america > div {
-  width: 50%;
-}
-/* head player img is a header div  */
+/*****************
+head player img is a header div  *****************/
 .head-player-img img {
   width: 480px;
   height: 400px;
@@ -108,19 +109,19 @@ header:hover img {
   grid-column-gap: 23px;
   align-items: center;
 }
-.player-div p {
-  color: gray;
-  font-size: 12px;
-}
-.player {
-  height: 177px;
-  width: 230px;
-}
 .player-div {
   box-shadow: 1px 1px 5px;
   border-radius: 5px;
   width: 250px;
   padding: 15px 0px 15px 15px;
+}
+.player {
+  height: 177px;
+  width: 230px;
+}
+.player-div p {
+  color: gray;
+  font-size: 12px;
 }
 /*****************
  players div style end
@@ -142,6 +143,9 @@ header:hover img {
   width: 55%;
   border-radius: 15px;
 }
+.bonus:hover img {
+  opacity: 0.4;
+}
 .article-div {
   display: none;
   position: absolute;
@@ -151,9 +155,6 @@ header:hover img {
 }
 .bonus:hover .article-div {
   display: block;
-}
-.bonus:hover img {
-  opacity: 0.4;
 }
 /*****************
  bonus section style end
@@ -169,16 +170,16 @@ footer style part start
 footer {
   margin-top: 30px;
 }
-.football-pic img {
-  width: 310px;
-  align-items: center;
-}
 .football-pic {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+.football-pic img {
+  width: 310px;
+  align-items: center;
 }
 .social-icon-list {
   display: flex;
@@ -208,12 +209,18 @@ footer style part end
   body {
     width: 100%;
   }
+  /*****************
+  header part style 
+  *****************/
   header {
     overflow: hidden;
   }
   .copa-america {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .copa-america > div {
+    width: auto;
   }
   .conmebol {
     margin: 10px;
@@ -222,9 +229,16 @@ footer style part end
   .head-player-img {
     overflow: hidden;
   }
-  .copa-america > div {
-    width: auto;
+  .head-player-img img {
+    width: 380px;
+    height: 300px;
   }
+  /*****************
+  header part style end
+  *****************/
+  /*****************
+  main part style start 
+  *****************/
   .players {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -235,11 +249,10 @@ footer style part end
     overflow-x: hidden;
     overflow-y: scroll;
   }
-  .head-player-img img {
-    width: 380px;
-    height: 300px;
-  }
 }
+/*****************
+main part style end 
+*****************/
 /*****************
  media query for mobile
  end
@@ -252,11 +265,24 @@ footer style part end
   body {
     width: 100%;
   }
+  /*****************
+  header part style 
+  *****************/
   header {
     overflow: hidden;
   }
+  .copa-america {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 0;
+    margin-right: 0;
+  }
   .copa-america > div {
     width: auto;
+  }
+  .conmebol {
+    margin: 10px;
+    padding: 0;
   }
   .head-player-img {
     overflow: hidden;
@@ -265,16 +291,12 @@ footer style part end
     width: 370px;
     height: 300px;
   }
-  .copa-america {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-right: 0;
-    margin-right: 0;
-  }
-  .conmebol {
-    margin: 10px;
-    padding: 0;
-  }
+  /*****************
+  header part style end
+  *****************/
+  /*****************
+  main part style start 
+  *****************/
   .players {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -286,6 +308,9 @@ footer style part end
     overflow-y: scroll;
   }
 }
+/*****************
+main part style end 
+*****************/
 /*****************
  media query for tablet
  end
