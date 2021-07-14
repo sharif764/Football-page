@@ -53,7 +53,6 @@ nav > section > .button {
 .conmebol a,
 .login {
   font-size: 16px;
-
   color: #fff;
   background-color: rgb(211, 9, 93);
   padding: 10px 10px 5px 5px;
@@ -182,6 +181,12 @@ footer span {
     margin: 10px;
     padding: 0;
   }
+  .head-player-img {
+    overflow: hidden;
+  }
+  .copa-america > div {
+    width: auto;
+  }
   .players {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -191,6 +196,10 @@ footer span {
     font-size: 10px;
     overflow-x: hidden;
     overflow-y: scroll;
+  }
+  .head-player-img img {
+    width: 380px;
+    height: 300px;
   }
 }
 /* media query for tablet */
