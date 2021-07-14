@@ -203,6 +203,8 @@ footer style part end
 @media only screen and (max-width: 668px) {
   body {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
   /*****************
   header part style 
